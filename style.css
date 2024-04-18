@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
     font-family: 'Wix Madefor Display';
     font-weight: 400;
-}/*
+}
 :root {
   --text-color: #dce8f4;
   --bg-color: #070f16;
@@ -19,7 +19,7 @@
   --secondary: #15589c;
   --main-color: #2b94fc;
 }
-
+/*
 :root {
 --text-color: #0d1613;
 --bg-color: #f9fdfc;
@@ -27,7 +27,7 @@
 --secondary: #7af0ce;
 --main-color: #3cfdc4;
 }
-*/
+
 :root[data-theme="light"] {
   --text-color: #0a100f;
   --bg-color: #f5fafa;
@@ -44,7 +44,7 @@
   --secondary: #176d5f;
   --main-color: #16ac90;
 }
-
+*/
 
 
 html{
