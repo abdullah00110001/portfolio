@@ -126,16 +126,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    position: fixed; /* Fixed positioning to float above other content */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center align */
-    z-index: 9999; /* High z-index to ensure it's above other content */
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 9999; 
     
 }
 
 .Animated-Radial-Menu .menu {
-    position: relative; /* Changed from absolute to relative */
+    position: relative;
     width: 280px;
     height: 280px;
     display: flex;
@@ -189,7 +189,7 @@ body {
     color: var(--clr);
     border: 2px solid var(--clr);
     border-radius: 20%;
-    font-size: 1.5rem; /* Adjust icon size here */
+    font-size: 1.5rem;
     transform: rotate(calc(-45deg * var(--i)));
     transition: 0.3s;
 }
@@ -211,18 +211,18 @@ body {
 /* Mobile Styles */
 @media (max-width: 768px) {
     .Animated-Radial-Menu .menu {
-        width: 200px; /* Smaller width for mobile */
-        height: 200px; /* Smaller height for mobile */
+        width: 200px; 
+        height: 200px; 
     }
 
     .Animated-Radial-Menu .menu li a {
-        width: 50px; /* Smaller item width for mobile */
-        height: 50px; /* Smaller item height for mobile */
-        font-size: 3.5em; /* Smaller font size for mobile */
+        width: 50px; 
+        height: 50px;
+        font-size: 3.5em; 
     }
 
     .Animated-Radial-Menu .menu.active li {
-        transform: rotate(calc(45deg * var(--i))) translateX(80px); /* Adjust for smaller size */
+        transform: rotate(calc(45deg * var(--i))) translateX(80px); 
     }
 }
 
@@ -591,7 +591,7 @@ span {
     background: var(--bg);
     border-radius: 20px;
     box-shadow: var(--shadow);
-    border: none; /* Remove border */
+    border: none; 
     text-align: center;
     padding: 2rem;
     margin: 2rem;
@@ -606,7 +606,7 @@ span {
 
 .services .box-container .box h3{
     font-size: 2.5rem;
-    color: var(--text); /* Setting color for h3 */
+    color: var(--text); 
     float: ;
     
 }
@@ -629,14 +629,14 @@ span {
   margin-top: 10px;
 }
 .services_modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
 
 }
 
@@ -645,8 +645,8 @@ span {
     left: 45%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 330px; /* Fixed width */
-    height: 345px; /* Fixed height */
+    width: 330px; 
+    height: 345px; 
     border: 2px solid rgba(255,255,255,.5);
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,.5);
@@ -815,7 +815,7 @@ span {
 }
 
 .testimonials .box1 {
-    background: var(--b, #007bff); /* Default to blue if --b is not defined */
+    background: var(--b, #007bff); 
     width: 100%;
     height: 120px;
     border-radius: 25px 25px 0 0;
@@ -918,7 +918,7 @@ form textarea {
     font-weight: 600;
     transition: 0.3s ease-in-out;
     border: 2px solid transparent;
-    margin: 0 auto; /* Center the button */
+    margin: 0 auto; 
 }
 .contact-button:hover {
   transform: scale(1.05);
