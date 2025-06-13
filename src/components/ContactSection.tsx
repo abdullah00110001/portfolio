@@ -254,13 +254,13 @@ const ContactSection = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mt-12">
-            <a href="#" className="p-3 rounded-full bg-muted hover:bg-muted/80 transition-colors">
+            <a href="https://github.com/abdullah00110001" className="p-3 rounded-full bg-muted hover:bg-muted/80 transition-colors">
               <Github className="w-5 h-5 text-muted-foreground" />
             </a>
             <a href="#" className="p-3 rounded-full bg-muted hover:bg-muted/80 transition-colors">
               <Linkedin className="w-5 h-5 text-muted-foreground" />
             </a>
-            <a href="#" className="p-3 rounded-full bg-muted hover:bg-muted/80 transition-colors">
+            <a href="abdullahusimin1@gmail.com" className="p-3 rounded-full bg-muted hover:bg-muted/80 transition-colors">
               <Mail className="w-5 h-5 text-muted-foreground" />
             </a>
           </div>

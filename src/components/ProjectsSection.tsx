@@ -20,14 +20,14 @@ const ProjectsSection = () => {
      technologies: ["Html","Css","Js"],
       category: "Landing page"
     }
-//     {
-//       id: 3,
-//       title: "Task Management App",
-//       description: "Collaborative task management with real-time updates.",
-//       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-//       technologies: ["React", "Node.js", "MongoDB"],
-//       category: "Web Application"
-//     }
+    {/*
+      id: 3,
+      title: "Task Management App",
+      description: "Collaborative task management with real-time updates.",
+      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+      technologies: ["React", "Node.js", "MongoDB"],
+      category: "Web Application"
+   */ }
   ];
 
   return (
@@ -59,16 +59,19 @@ const ProjectsSection = () => {
                     alt={project.title}
                     className="w-full h-80 object-cover rounded-2xl border"
                   />
-//                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl flex items-center justify-center space-x-4">
-//                     <Button size="sm" className="bg-primary hover:bg-primary/90">
-//                       <ArrowUpRight className="w-4 h-4 mr-2" />
-//                       Demo
-//                     </Button>
-//                     <Button size="sm" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
-//                       <Github className="w-4 h-4 mr-2" />
-//                       Code
-//                     </Button>
+                 { /*
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl flex items-center justify-center space-x-4">
+                    <Button size="sm" className="bg-primary hover:bg-primary/90">
+                      <ArrowUpRight className="w-4 h-4 mr-2" />
+                      Demo
+                    </Button>
+                    <Button size="sm" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+                      <Github className="w-4 h-4 mr-2" />
+                      Code
+                    </Button>
                   </div>
+                  */}
+                  
                 </div>
               </div>
 
@@ -94,17 +97,18 @@ const ProjectsSection = () => {
                     </span>
                   ))}
                 </div>
-
-               //  <div className="flex space-x-4">
-//                   <Button size="sm" className="bg-primary hover:bg-primary/90">
-//                     <ArrowUpRight className="w-4 h-4 mr-2" />
-//                     View Project
-//                   </Button>
-//                   <Button size="sm" variant="outline">
-//                     <Github className="w-4 h-4 mr-2" />
-//                     Source Code
-//                   </Button>
-//                 </div>
+{/*
+                  <div className="flex space-x-4">
+                  <Button size="sm" className="bg-primary hover:bg-primary/90">
+                    <ArrowUpRight className="w-4 h-4 mr-2" />
+                    View Project
+                  </Button>
+                  <Button size="sm" variant="outline">
+                    <Github className="w-4 h-4 mr-2" />
+                    Source Code
+                  </Button>
+                </div>
+*/}
               </div>
             </div>
           ))}
