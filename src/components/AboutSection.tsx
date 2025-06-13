@@ -31,7 +31,7 @@ const AboutSection = () => {
 
         <div className="mb-16">
           <h3 className="text-2xl md:text-3xl font-space font-semibold mb-6">
-            Passionate Web Developer & Tech Creator
+            PassionatWeb Developer 
           </h3>
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>

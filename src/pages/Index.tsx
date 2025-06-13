@@ -46,7 +46,7 @@ const Index = () => {
           {/* Central Tech Hub */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             {/* Central Core */}
-            <div className="w-4 h-4 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-sm animate-[circuit-pulse_3s_ease-in-out_infinite] shadow-[0_0_20px_rgba(34,211,238,0.8),0_0_40px_rgba(59,130,246,0.6)]"></div>
+            // <div className="w-4 h-4 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-sm animate-[circuit-pulse_3s_ease-in-out_infinite] shadow-[0_0_20px_rgba(34,211,238,0.8),0_0_40px_rgba(59,130,246,0.6)]"></div>
             
             {/* Horizontal Circuit Lines */}
             <div className="absolute top-1/2 left-2 w-32 h-0.5 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 animate-[circuit-flow-right_4s_ease-in-out_infinite] shadow-[0_0_8px_rgba(34,211,238,0.6)]" style={{ animationDelay: '0s' }}></div>
