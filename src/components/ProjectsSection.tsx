@@ -19,7 +19,7 @@ const ProjectsSection = () => {
       image: "/img/w2.png",
      technologies: ["Html","Css","Js"],
       category: "Landing page"
-    }
+    },
     {/*
       id: 3,
       title: "Task Management App",
