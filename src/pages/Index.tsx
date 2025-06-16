@@ -211,21 +211,7 @@ const Index = () => {
       
       
       
-      
-      
-      
-      
-      {/* Floating geometric shapes */}
-      <div className="absolute top-1/4 left-1/4 w-20 h-20 bg-purple-500/20 rounded-full floating-element pulse-glow" style={{ animationDelay: '0s' }} />
-      <div className="absolute top-3/4 right-1/4 w-16 h-16 bg-blue-500/20 rotate-45 floating-element pulse-glow" style={{ animationDelay: '2s' }} />
-      <div className="absolute bottom-1/3 left-1/3 w-12 h-12 bg-purple-400/20 rounded-full floating-element pulse-glow" style={{ animationDelay: '4s' }} />
-      <div className="absolute top-1/6 right-1/3 w-8 h-8 bg-blue-400/30 rounded-full floating-element pulse-glow" style={{ animationDelay: '1s' }} />
-      <div className="absolute bottom-1/4 right-1/6 w-14 h-14 bg-purple-300/20 rotate-45 floating-element pulse-glow" style={{ animationDelay: '3s' }} />
-      
-      {/* Rotating rings */}
-      <div className="absolute top-1/2 right-1/6 w-32 h-32 border-2 border-purple-400/30 rounded-full rotate-slow" />
-      <div className="absolute bottom-1/4 left-1/6 w-24 h-24 border-2 border-blue-400/30 rounded-full rotate-slow" style={{ animationDirection: 'reverse', animationDuration: '15s' }} />
-      <div className="absolute top-1/4 right-1/2 w-40 h-40 border border-purple-300/20 rounded-full rotate-slow" style={{ animationDuration: '25s' }} />
+
       
       {/* Glowing orbs */}
       <div className="absolute top-10 right-10 w-6 h-6 bg-purple-400 rounded-full animate-neon-pulse" />

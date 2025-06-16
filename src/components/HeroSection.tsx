@@ -23,10 +23,10 @@ const HeroSection = () => {
 */}          
           
            <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-4 gradient-text">Assalamu alaikum</h1>
-           <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-2">  Hi</h2>
-           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">  I'm <span className="text-purple-400">    <TypewriterEffect 
+           <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-2">I'm</h2>
+           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6"><span className="text-purple-400">    <TypewriterEffect 
            text="Abdullah" 
-           delay={30}
+           delay={10}
            />
            </span>
            </h1>
