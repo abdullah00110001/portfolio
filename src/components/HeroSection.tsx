@@ -26,7 +26,7 @@ const HeroSection = () => {
            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-2">I'm</h2>
            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6"><span className="text-purple-400">    <TypewriterEffect 
            text="Abdullah" 
-           delay={10}
+           delay={60}
            />
            </span>
            </h1>
