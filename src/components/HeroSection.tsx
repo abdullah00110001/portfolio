@@ -24,9 +24,9 @@ const HeroSection = () => {
           
            <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-4 gradient-text">Assalamu alaikum</h1>
            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-2">I'm</h2>
-           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6"><span className="text-purple-400">    <TypewriterEffect 
+           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 gradient-text"><span className="text-purple-400">    <TypewriterEffect 
            text="Abdullah" 
-           delay={60}
+           delay={200}
            />
            </span>
            </h1>
@@ -44,7 +44,7 @@ const HeroSection = () => {
   href="https://wa.me/8801996598924?text=Hello%2C%20write%20your%20message%20here"
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-block mb-6"  // নিচে ফাঁকা রাখতে এই লাইন
+  className="inline-block mb-6"  
 >
   <Button 
     size="lg" 

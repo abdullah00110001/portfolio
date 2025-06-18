@@ -116,8 +116,8 @@ const Index = () => {
         <div className="absolute inset-0">
           {/* Central Tech Hub */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            {/* Central Core */}
-            <div className="w-4 h-4 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-sm animate-[circuit-pulse_3s_ease-in-out_infinite] shadow-[0_0_20px_rgba(34,211,238,0.8),0_0_40px_rgba(59,130,246,0.6)]"></div>
+            {/* Central Core 
+            <div className="w-4 h-4 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-sm animate-[circuit-pulse_3s_ease-in-out_infinite] shadow-[0_0_20px_rgba(34,211,238,0.8),0_0_40px_rgba(59,130,246,0.6)]"></div>*/}
             
             {/* Horizontal Circuit Lines */}
             <div className="absolute top-1/2 left-2 w-32 h-0.5 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 animate-[circuit-flow-right_4s_ease-in-out_infinite] shadow-[0_0_8px_rgba(34,211,238,0.6)]" style={{ animationDelay: '0s' }}></div>
@@ -221,21 +221,11 @@ const Index = () => {
       <div className="absolute bottom-20 right-1/3 w-5 h-5 bg-purple-200 rounded-full animate-neon-pulse" style={{ animationDelay: '1.5s' }} />
       
       {/* Glowing orbs */}
-<div className="absolute top-10 right-10 w-6 h-6 bg-purple-400 rounded-full animate-neon-pulse animate-move-around" />
-<div className="absolute bottom-10 left-10 w-4 h-4 bg-blue-400 rounded-full animate-neon-pulse-slow animate-move-around" style={{ animationDelay: '1s' }} />
-<div className="absolute top-1/2 left-10 w-8 h-8 bg-pink-300 rounded-full animate-neon-pulse-fast animate-move-around" style={{ animationDelay: '2s' }} />
-<div className="absolute top-20 left-1/3 w-3 h-3 bg-cyan-300 rounded-full animate-neon-pulse animate-move-around" style={{ animationDelay: '0.5s' }} />
-<div className="absolute bottom-20 right-1/3 w-5 h-5 bg-indigo-300 rounded-full animate-neon-pulse animate-move-around" style={{ animationDelay: '1.5s' }} />
-
-{/* More glowing orbs */}
-<div className="absolute top-1/4 right-1/4 w-6 h-6 bg-green-400 rounded-full animate-neon-pulse-slow animate-move-around" style={{ animationDelay: '2.5s' }} />
-<div className="absolute top-3/4 left-1/4 w-7 h-7 bg-yellow-400 rounded-full animate-neon-pulse-fast animate-move-around" style={{ animationDelay: '1s' }} />
-<div className="absolute bottom-1/3 right-10 w-4 h-4 bg-red-400 rounded-full animate-neon-pulse animate-move-around" style={{ animationDelay: '3s' }} />
-<div className="absolute top-10 left-1/2 w-5 h-5 bg-teal-400 rounded-full animate-neon-pulse-slow animate-move-around" style={{ animationDelay: '2s' }} />
-<div className="absolute bottom-10 right-1/2 w-6 h-6 bg-orange-400 rounded-full animate-neon-pulse-fast animate-move-around" style={{ animationDelay: '1.5s' }} />
-
-
-
+<div className="absolute top-19 right-10 w-60 h-60 bg-purple-400 rounded-full animate-neon-pulse animate-move-around" />
+<div className="absolute bottom-180 left-100 w-40 h-40 bg-blue-40 rounded-full animate-neon-pulse-slow animate-move-around" style={{ animationDelay: '3s' }} />
+<div className="absolute top-5/2 left-15 w-80 h-80 bg-pink-300 rounded-full animate-neon-pulse-fast animate-move-around" style={{ animationDelay: '2s' }} />
+<div className="absolute top-29 left-1/3 w-3 h-30 bg-cyan-300 rounded-full animate-neon-pulse animate-move-around" style={{ animationDelay: '0.5s' }} />
+<div className="absolute bottom-65 right-1/3 w-5 h-5 bg-indigo-300 rounded-full animate-neon-pulse animate-move-around" style={{ animationDelay: '1.5s' }} />
       
       
       

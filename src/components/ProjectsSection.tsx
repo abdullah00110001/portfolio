@@ -64,10 +64,11 @@ const ProjectsSection = () => {
                       <ArrowUpRight className="w-4 h-4 mr-2" />
                       Demo
                     </Button>
-                    // <Button size="sm" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
-//                       <Github className="w-4 h-4 mr-2" />
-//                       Code
-//                     </Button>
+                    {/*
+                     <Button size="sm" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+                      <Github className="w-4 h-4 mr-2" />
+                      Code
+                    </Button>*/}
                   </div>
                 </div>
               </div>
@@ -100,10 +101,11 @@ const ProjectsSection = () => {
                     <ArrowUpRight className="w-4 h-4 mr-2" />
                     View Project
                   </Button>
-                  // <Button size="sm" variant="outline">
-//                     <Github className="w-4 h-4 mr-2" />
-//                     Source Code
-//                   </Button>
+                  {/*
+                   <Button size="sm" variant="outline">
+                    <Github className="w-4 h-4 mr-2" />
+                    Source Code
+                  </Button>*/}
                 </div>
               </div>
             </div>
