@@ -224,15 +224,38 @@ const Index = () => {
       
       
       
-      <div class="flex justify-center items-center h-screen bg-gradient-to-br from-black via-indigo-900 to-purple-900">
-  <div class="relative w-24 h-24 bg-black rounded-sm z-10 shadow-2xl">
-    <div class="absolute w-20 h-1 bg-gradient-to-r from-cyan-400 to-blue-600 top-1/2 -left-20 transform -translate-y-1/2 rounded-full drop-shadow-md"></div>
-    <div class="absolute w-20 h-1 bg-gradient-to-r from-pink-500 to-purple-500 top-1/4 -left-20 transform -translate-y-1/2 rounded-full drop-shadow-md"></div>
-    <div class="absolute h-20 w-1 bg-gradient-to-b from-green-400 to-lime-400 top-full left-1/4 transform -translate-x-1/2 rounded-full drop-shadow-md"></div>
-    <div class="absolute h-20 w-1 bg-gradient-to-b from-yellow-400 to-orange-400 top-full right-1/4 transform translate-x-1/2 rounded-full drop-shadow-md"></div>
- 
-  </div>
-</div>
+
+
+    <div class="relative w-[400px] h-[300px]">
+
+  
+      <div class="absolute left-0 top-[40%] w-[100px] h-1 bg-gradient-to-r from-cyan-400 to-blue-500 glow rounded"></div>
+      <div class="absolute left-0 top-[50%] w-[100px] h-1 bg-gradient-to-r from-green-300 to-lime-400 glow rounded"></div>
+      <div class="absolute left-0 top-[60%] w-[100px] h-1 bg-gradient-to-r from-pink-400 to-fuchsia-600 glow rounded"></div>
+
+
+      <div class="absolute right-0 top-[40%] w-[100px] h-1 bg-gradient-to-l from-yellow-300 to-orange-500 glow rounded"></div>
+      <div class="absolute right-0 top-[50%] w-[100px] h-1 bg-gradient-to-l from-pink-300 to-purple-500 glow rounded"></div>
+      <div class="absolute right-0 top-[60%] w-[100px] h-1 bg-gradient-to-l from-sky-400 to-cyan-600 glow rounded"></div>
+
+
+      <div class="absolute left-[47%] top-0 h-[80px] w-1 bg-gradient-to-b from-blue-400 to-cyan-500 glow rounded"></div>
+      <div class="absolute left-[53%] top-0 h-[80px] w-1 bg-gradient-to-b from-purple-500 to-pink-400 glow rounded"></div>
+
+      <div class="absolute left-[47%] bottom-0 h-[80px] w-1 bg-gradient-to-t from-green-300 to-yellow-400 glow rounded"></div>
+      <div class="absolute left-[53%] bottom-0 h-[80px] w-1 bg-gradient-to-t from-lime-400 to-green-500 glow rounded"></div>
+
+
+      <div class="absolute left-0 top-[40%] w-3 h-3 rounded-full bg-cyan-300 glow"></div>
+      <div class="absolute left-0 top-[50%] w-3 h-3 rounded-full bg-lime-300 glow"></div>
+      <div class="absolute left-0 top-[60%] w-3 h-3 rounded-full bg-pink-300 glow"></div>
+      <div class="absolute right-0 top-[40%] w-3 h-3 rounded-full bg-yellow-300 glow"></div>
+      <div class="absolute right-0 top-[50%] w-3 h-3 rounded-full bg-pink-300 glow"></div>
+      <div class="absolute right-0 top-[60%] w-3 h-3 rounded-full bg-sky-400 glow"></div>
+
+    </div>
+
+
 
      
        {/* Content */}
