@@ -226,36 +226,6 @@ const Index = () => {
       
 
 
-    <div class="relative w-[400px] h-[300px]">
-
-  
-      <div class="absolute left-0 top-[40%] w-[100px] h-1 bg-gradient-to-r from-cyan-400 to-blue-500 glow rounded"></div>
-      <div class="absolute left-0 top-[50%] w-[100px] h-1 bg-gradient-to-r from-green-300 to-lime-400 glow rounded"></div>
-      <div class="absolute left-0 top-[60%] w-[100px] h-1 bg-gradient-to-r from-pink-400 to-fuchsia-600 glow rounded"></div>
-
-
-      <div class="absolute right-0 top-[40%] w-[100px] h-1 bg-gradient-to-l from-yellow-300 to-orange-500 glow rounded"></div>
-      <div class="absolute right-0 top-[50%] w-[100px] h-1 bg-gradient-to-l from-pink-300 to-purple-500 glow rounded"></div>
-      <div class="absolute right-0 top-[60%] w-[100px] h-1 bg-gradient-to-l from-sky-400 to-cyan-600 glow rounded"></div>
-
-
-      <div class="absolute left-[47%] top-0 h-[80px] w-1 bg-gradient-to-b from-blue-400 to-cyan-500 glow rounded"></div>
-      <div class="absolute left-[53%] top-0 h-[80px] w-1 bg-gradient-to-b from-purple-500 to-pink-400 glow rounded"></div>
-
-      <div class="absolute left-[47%] bottom-0 h-[80px] w-1 bg-gradient-to-t from-green-300 to-yellow-400 glow rounded"></div>
-      <div class="absolute left-[53%] bottom-0 h-[80px] w-1 bg-gradient-to-t from-lime-400 to-green-500 glow rounded"></div>
-
-
-      <div class="absolute left-0 top-[40%] w-3 h-3 rounded-full bg-cyan-300 glow"></div>
-      <div class="absolute left-0 top-[50%] w-3 h-3 rounded-full bg-lime-300 glow"></div>
-      <div class="absolute left-0 top-[60%] w-3 h-3 rounded-full bg-pink-300 glow"></div>
-      <div class="absolute right-0 top-[40%] w-3 h-3 rounded-full bg-yellow-300 glow"></div>
-      <div class="absolute right-0 top-[50%] w-3 h-3 rounded-full bg-pink-300 glow"></div>
-      <div class="absolute right-0 top-[60%] w-3 h-3 rounded-full bg-sky-400 glow"></div>
-
-    </div>
-
-
 
      
        {/* Content */}
