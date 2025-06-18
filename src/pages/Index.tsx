@@ -220,17 +220,20 @@ const Index = () => {
       <div className="absolute top-20 left-1/3 w-3 h-3 bg-blue-300 rounded-full animate-neon-pulse" style={{ animationDelay: '0.5s' }} />
       <div className="absolute bottom-20 right-1/3 w-5 h-5 bg-purple-200 rounded-full animate-neon-pulse" style={{ animationDelay: '1.5s' }} />
       
-      {/* Glowing orbs */}
-<div className="absolute top-19 right-10 w-60 h-60 bg-purple-400 rounded-full animate-neon-pulse animate-move-around" />
-<div className="absolute bottom-180 left-100 w-40 h-40 bg-blue-40 rounded-full animate-neon-pulse-slow animate-move-around" style={{ animationDelay: '3s' }} />
-<div className="absolute top-5/2 left-15 w-80 h-80 bg-pink-300 rounded-full animate-neon-pulse-fast animate-move-around" style={{ animationDelay: '2s' }} />
-<div className="absolute top-29 left-1/3 w-3 h-30 bg-cyan-300 rounded-full animate-neon-pulse animate-move-around" style={{ animationDelay: '0.5s' }} />
-<div className="absolute bottom-65 right-1/3 w-5 h-5 bg-indigo-300 rounded-full animate-neon-pulse animate-move-around" style={{ animationDelay: '1.5s' }} />
       
       
       
       
-      
+      <div class="flex justify-center items-center h-screen bg-gradient-to-br from-black via-indigo-900 to-purple-900">
+  <div class="relative w-24 h-24 bg-black rounded-sm z-10 shadow-2xl">
+    <div class="absolute w-20 h-1 bg-gradient-to-r from-cyan-400 to-blue-600 top-1/2 -left-20 transform -translate-y-1/2 rounded-full drop-shadow-md"></div>
+    <div class="absolute w-20 h-1 bg-gradient-to-r from-pink-500 to-purple-500 top-1/4 -left-20 transform -translate-y-1/2 rounded-full drop-shadow-md"></div>
+    <div class="absolute h-20 w-1 bg-gradient-to-b from-green-400 to-lime-400 top-full left-1/4 transform -translate-x-1/2 rounded-full drop-shadow-md"></div>
+    <div class="absolute h-20 w-1 bg-gradient-to-b from-yellow-400 to-orange-400 top-full right-1/4 transform translate-x-1/2 rounded-full drop-shadow-md"></div>
+ 
+  </div>
+</div>
+
      
        {/* Content */}
       <div className="relative z-10">
